@@ -1,5 +1,5 @@
 import pygame
-import enitities
+import entities
 import menus
 
 class game:
@@ -9,6 +9,6 @@ class game:
 
 	def runloop(self):
 		while self.flag:
-			player = enitities.player()
+			player = entities.player()
 
 
